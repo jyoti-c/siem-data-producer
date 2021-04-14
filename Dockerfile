@@ -1,4 +1,4 @@
-FROM centos:7
+FROM golang:1.16.3
 
 WORKDIR /home
 ENV GIN_MODE=release
